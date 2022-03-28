@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x:hidden ;
+    width: 100%;
+}
+
+.image-brand img{
+    animation: logo,0.5s,infinite,alternate;
+}
+
+@keyframes logo{
+    25%{height: 50px;}
+    50%{height: 60px;}
+    75%{height: 50px;}
+    100%{height: 60px;}
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.shadow{
+    box-shadow: 0 0 10px;
+}
+
+pre{
+    color:white
+}
+
+strong{
+    color: black;
+    background:white;
+    padding: 2px;
+}
+
+.bg-image{
+    background-image: url('file:///C:/Users/Asus/OneDrive/Documents/web%20storage/practice/jquiry/bgimage.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a:hover{
+    color: blue;
+}
+
+.social-media:hover{
+    transform: scale(1.2);
+    transition: 50ms;
+}
+
+.pagination ul li:hover{
+    background-color: grey;
+}
+
+.login-bg-img img{
+    background-image: url('file:///C:/Users/Asus/OneDrive/Documents/web%20storage/practice/jquiry/login-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+     filter:grayscale(5px);
+    filter: blur(5px);
+    box-shadow: noneS;
+
+}
+
+.form-bg{
+    background-color: #4b4747;
+}
+
+@media only screen and (max-width:990px){
+    .container section p{
+        text-align: center;
+    }
+
+    
+}
+
